@@ -26,8 +26,7 @@
         apt-get update
         apt-get install apache2 -y
         service apache2 restart
-        echo "
-  <h3>Web Server: www1</h3>" | tee /var/www/html/index.html'
+       ``` echo "<h3>Web Server: www1</h3>" | tee /var/www/html/index.html' ```
   Copied!
   Create a virtual machine www2 in your default zone.
 
